@@ -56,7 +56,7 @@ class CarroView(View):
     def delete(self, request, id):
         qs = TiposCarros.objects.get(id=id)
         qs.delete()
-        data = {'mensagem': "Item excluido com sucesso"}
+        data = {'mensagem': "Item excluido com sucessos"}
         return JsonResponse(data)
 
 class CarroSerializer(ModelSerializer):
