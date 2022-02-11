@@ -1,1 +1,1 @@
-web:gunicorn concessonaria.wsgi
+web: gunicorn concessonaria.wsgi
